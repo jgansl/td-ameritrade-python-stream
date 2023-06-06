@@ -20,7 +20,7 @@ TDSession = TDClient(
    redirect_uri     = getenv('TDA_REDIRECT_URI'),
    credentials_path = getenv('TDA_PATH_TO_CREDENTIALS_FILE')
 )
-
+#
 # Login to the session
 TDSession.login()
 

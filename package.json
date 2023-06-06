@@ -1,0 +1,11 @@
+{
+  "name": "td-ameritrade-python-stream",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jgansl/td-ameritrade-python-stream.git",
+  "author": "jgansl <jessegansler@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "pip install -r requirements.txt && clear && poetry -h"
+  }
+}
